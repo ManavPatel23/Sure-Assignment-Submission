@@ -1,0 +1,14 @@
+# Parse single file
+python parser.py statement.pdf
+
+# Parse multiple files
+python parser.py statement1.pdf statement2.pdf statement3.pdf
+
+# Parse entire directory
+python parser.py --dir ./statements/
+
+# Export to JSON
+python parser.py *.pdf --json output.json
+
+# Choose output format
+python parser.py statement.pdf --format table
